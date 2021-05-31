@@ -16,4 +16,6 @@ Since it is naive, I'll be using sklearn.naive_bayes to train the spam classifie
 
 **MultinomialNB**: is going to do all the heavy work on Naive Bayes.
 
+The DataFrame contains two folders as spam and ham(non-spam)
+
 (You need to make your own DataFrame)
