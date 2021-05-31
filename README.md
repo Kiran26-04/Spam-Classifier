@@ -15,3 +15,5 @@ Since it is naive, I'll be using sklearn.naive_bayes to train the spam classifie
 **CountVectorizer**: Function in scikit which can operate on lots of words at once.
 
 **MultinomialNB**: is going to do all the heavy work on Naive Bayes.
+
+(The DataFrame uploaded here as already been made. You can append or make your own dataframe as well.)
