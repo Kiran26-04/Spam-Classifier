@@ -7,7 +7,11 @@ So the spam classifier will make use of the Bayes theorem by which it will calcu
 P(spam|free) = P(spam)P(free|spam) / P(free)
 We can calculate this probability for any word by P(spam|word) for every word that we encounter in a spam email and later on multiply these probabilities.
 Here, it is assumed that the presence of different words is independent of each other, hence called Naive.
+
 **PROCESS**
+
 Since it is naive, I'll be using sklearn.naive_bayes to train the spam classifier. Most of the code is just reading the data and loading it into the Pandas dataframe. The ML classification bit is just few lines of code.
+
 **CountVectorizer**: Function in scikit which can operate on lots of words at once.
+
 **MultinomialNB**: is going to do all the heavy work on Naive Bayes.
